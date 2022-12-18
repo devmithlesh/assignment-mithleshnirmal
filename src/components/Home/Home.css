@@ -1,0 +1,117 @@
+/* css file for Home , Layout, Page */
+
+.main_section_div_part {
+  width: 20%;
+  margin-top: 65px;
+}
+
+.main_section_div_part .left_navbar_div {
+  border-right: 1px solid #e5e5e5;
+  padding: 25px 0 0 32px;
+}
+
+.admin_plue_content {
+  display: flex;
+  align-items: center;
+}
+
+.admin_plue_content > div {
+  margin-left: 14px;
+}
+.admin_plue_content > div h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--black);
+  margin-bottom: 12px;
+}
+.admin_plue_content > div p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 16px;
+  color: var(--lblack3);
+}
+
+.left_navbar_div .navbar_ul_list {
+  margin-top: 35px;
+}
+
+.left_navbar_div .navbar_ul_list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.left_navbar_div .navbar_ul_list li:last-child {
+  margin-bottom: 0px;
+}
+.left_navbar_div .navbar_ul_list li a {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--lblack3);
+}
+
+/* Right Side Mentee Profile */
+.right_content_area_div {
+  width: 80%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.right_content_area_div > h2 {
+  padding: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--lblack);
+}
+
+.inner_div_right_side table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.inner_div_right_side thead {
+  background: var(--black);
+}
+
+.inner_div_right_side thead tr th {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 28px;
+}
+
+.inner_div_right_side table tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.inner_div_right_side table td,
+th {
+  text-align: left;
+  padding: 16px 26px;
+}
+
+.inner_div_right_side table tr td {
+  color: var(--lblack);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.inner_div_right_side table tr td a {
+  background: var(--blue);
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--white);
+}
+
+.inner_div_right_side .img_or_name {
+  display: flex;
+  align-items: center;
+}
+.inner_div_right_side .img_or_name img {
+  margin-right: 8px;
+}

@@ -1,0 +1,27 @@
+header {
+  background: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header_div_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.img_right_round_arrow {
+  display: flex;
+  align-items: center;
+}
+.img_right_round_arrow .admin_right_img {
+  width: 40px;
+}
+
+.down_arrow {
+  margin-left: 14px;
+}

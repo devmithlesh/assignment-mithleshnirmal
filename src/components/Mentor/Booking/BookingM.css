@@ -1,0 +1,146 @@
+/* ------ upcomming data css or --- */
+
+.main_div_upcoming_pro {
+  background: var(--white);
+  position: absolute;
+  margin-top: -25px;
+  left: 22%;
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu_div_inside_booking ul {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 15px 0;
+}
+
+.menu_div_inside_booking ul li:nth-child(2) {
+  margin-left: 30px;
+}
+
+.menu_div_inside_booking ul li a {
+  border: none !important;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--lblack2);
+}
+.menu_div_inside_booking ul li a:focus {
+  color: var(--blue);
+}
+.profile_div_of_user_upcom {
+  display: flex;
+  align-items: center;
+  background: var(--dwhite);
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.profile_inside_upcom_div {
+  margin-left: 10px;
+}
+.profile_inside_upcom_div div {
+  display: flex;
+  align-items: center;
+}
+.profile_inside_upcom_div h3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--lblack2);
+}
+
+.profile_inside_upcom_div p {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--lblack3);
+  margin: 5px 0;
+}
+
+.profile_inside_upcom_div div span {
+  background: #ebf7ef;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--lgreen);
+  padding: 3px 8px;
+}
+
+.profile_inside_upcom_div div span:nth-child(2) {
+  margin-left: 10px;
+}
+
+.card_div_main_Upcoming_in {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Pascall */
+.card_past_all_upcoming {
+  margin-top: 20px;
+}
+
+.profile_div_of_user_upcom2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--dwhite);
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+}
+.profile_inside_div_pss {
+  display: flex;
+  align-items: center;
+}
+
+.profile_inside_div_pss p {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--lblack3);
+  margin: 5px 0;
+}
+
+.profile_inside_div_pss h3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--lblack2);
+}
+
+.innner_left_content {
+  margin-left: 15px;
+}
+
+.innner_left_content div span {
+  background: #e5e5e5;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--lblack4);
+  padding: 3px 8px;
+}
+
+.innner_left_content div span:last-child {
+  margin-left: 10px;
+}
+
+.profile_div_of_user_upcom2 button {
+  border: 1px solid #3397ef;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--blue);
+  background: var(--white);
+  cursor: pointer;
+}
+
+/* PostCall2 */
+
+.passtcall2_div_margin {
+  position: relative;
+  bottom: -40px;
+}

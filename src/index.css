@@ -1,0 +1,52 @@
+/* ----------- Google fonts ----------------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Target all website */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--Inter) !important;
+  font-style: normal;
+}
+
+/* Variable Define For Global */
+:root {
+  /* fonts */
+  --Inter: "Inter", sans-serif;
+  /* colors */
+  --white: #ffffff;
+  --dwhite: #fafafa;
+  --black: #171717;
+  --lblack: #404040;
+  --lblack2: #262626;
+  --lblack3: #737373;
+  --lblack4: #525252;
+  --lgreen: #7bc896;
+  --blue: #3397ef;
+}
+/* Global Defile */
+/* Container */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.active_color {
+  color: var(--blue) !important;
+}
+
+body {
+  position: relative;
+}
