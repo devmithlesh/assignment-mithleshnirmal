@@ -10,6 +10,7 @@ import WeekSlots from "./components/Mentor/WeekSlots";
 import Upcoming from "./components/Mentor/Booking/UpComing";
 import Feedback from "./components/Mentor/Booking/PastCall";
 import PastCall2 from "./components/Mentor/Booking/PastCall2";
+import NoMatch from "./components/NoMatch";
 function App() {
   return (
     <>
@@ -36,6 +37,7 @@ function App() {
           </Route>
           <Route path="/mentors" element={<Requet />} />
           <Route path="/details" element={<Details />} />
+          <Route path="*" element={<NoMatch />} />
         </Routes>
       </BrowserRouter>
     </>

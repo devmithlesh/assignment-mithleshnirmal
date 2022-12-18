@@ -41,6 +41,13 @@
   align-items: center;
   margin-bottom: 35px;
 }
+.left_navbar_div .navbar_ul_list li img {
+  transition: 0.5s;
+}
+.left_navbar_div .navbar_ul_list li:hover img {
+  transform: translateX(5px);
+}
+
 .left_navbar_div .navbar_ul_list li:last-child {
   margin-bottom: 0px;
 }
@@ -49,6 +56,10 @@
   font-weight: 400;
   font-size: 20px;
   color: var(--lblack3);
+}
+
+.left_navbar_div .navbar_ul_list li a:focus {
+  color: var(--blue);
 }
 
 /* Right Side Mentee Profile */
@@ -106,6 +117,11 @@ th {
   font-weight: 400;
   font-size: 12px;
   color: var(--white);
+  transition: 0.5s;
+}
+
+.inner_div_right_side table tr td a:hover {
+  background: var(--black);
 }
 
 .inner_div_right_side .img_or_name {
@@ -114,4 +130,51 @@ th {
 }
 .inner_div_right_side .img_or_name img {
   margin-right: 8px;
+}
+
+/* Media Query */
+
+@media (max-width: 1025px) {
+  .inner_div_right_side table td,
+  th {
+    padding: 8px;
+  }
+  .inner_div_right_side table tr td a {
+    padding: 5px 8px;
+  }
+
+  .admin_plue_content > div h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .admin_plue_content > div p {
+    font-size: 15px;
+  }
+
+  .left_navbar_div .navbar_ul_list li a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin_plue_content {
+    flex-direction: column;
+  }
+
+  .left_navbar_div .navbar_ul_list li {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left_navbar_div .navbar_ul_list li a {
+    font-size: 14px;
+  }
+  .main_section_div_part .left_navbar_div,
+  .left_navbar_div .navbar_ul_list li a {
+    padding-left: 5px;
+  }
+
+  /* Table */
+  .inner_div_right_side {
+    overflow-x: auto;
+  }
 }

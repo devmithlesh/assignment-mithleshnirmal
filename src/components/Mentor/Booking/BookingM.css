@@ -91,6 +91,7 @@
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 .profile_inside_div_pss {
   display: flex;
@@ -136,6 +137,11 @@
   color: var(--blue);
   background: var(--white);
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.profile_div_of_user_upcom2 button:hover {
+  background: var(--lblack);
 }
 
 /* PostCall2 */
@@ -143,4 +149,68 @@
 .passtcall2_div_margin {
   position: relative;
   bottom: -40px;
+}
+
+/* --------------------- Media Query in add some point---------------- */
+@media (min-width: 1378px) {
+  .weekly_slots_div {
+    left: 21%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .weekly_slots_div {
+    margin-top: -20px;
+    width: 75%;
+  }
+  .main_div_upcoming_pro {
+    margin-top: -25px;
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .weekly_slots_div {
+    margin-top: -59px;
+  }
+  .main_div_upcoming_pro {
+    margin-top: -68px;
+  }
+
+  @media (max-width: 480px) {
+    .weekly_slots_div {
+      margin-top: -204px;
+    }
+    .main_div_upcoming_pro {
+      margin-top: -204px;
+    }
+    .menu_div_inside_booking ul li a {
+      font-size: 14px;
+    }
+    .profile_div_of_user_upcom img,
+    .profile_inside_div_pss img {
+      width: 25%;
+    }
+    .profile_inside_upcom_div h3,
+    .profile_inside_div_pss h3 {
+      font-size: 14px;
+    }
+    .profile_inside_upcom_div p {
+      font-size: 12px;
+    }
+    .profile_inside_upcom_div div span,
+    .innner_left_content div span {
+      font-size: 12px;
+    }
+    .profile_div_of_user_upcom2 {
+      padding: 10px;
+    }
+    .profile_div_of_user_upcom2 button {
+      padding: 4px 5px;
+      font-size: 11px;
+    }
+    .innner_left_content div span {
+      padding: 2px 0;
+    }
+  }
 }

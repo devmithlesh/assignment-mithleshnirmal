@@ -17,11 +17,26 @@ header {
 .img_right_round_arrow {
   display: flex;
   align-items: center;
+  transition: 0.5s;
+}
+.img_right_round_arrow:hover .down_arrow {
+  transform: translateY(5px);
+  cursor: pointer;
+  transition: 0.5s;
 }
 .img_right_round_arrow .admin_right_img {
   width: 40px;
+  cursor: pointer;
 }
 
 .down_arrow {
   margin-left: 14px;
+}
+
+/* Media Query in Header */
+
+@media (max-width: 1025px) {
+  .admin_plue_content img {
+    width: 35%;
+  }
 }

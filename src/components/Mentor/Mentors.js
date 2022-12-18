@@ -23,9 +23,9 @@ function Mentors() {
               <div>
                 <h3>
                   Subhro Bhattacharya
-                  <Link to="https://google.com/">
+                  <a href="https://www.linkedin.com/">
                     Linkedin <img src={imgs2} alt="linkedin" />
-                  </Link>
+                  </a>
                 </h3>
                 <p>Director, KPMG in India</p>
               </div>

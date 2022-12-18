@@ -12,7 +12,7 @@ function PastCall() {
               return (
                 <div className="profile_div_of_user_upcom2">
                   <div className="profile_inside_div_pss">
-                    <img src={vals.img_pr} alt="" />
+                    <img src={vals.img_pr} alt="user" />
                     <div className="innner_left_content">
                       <h3>{vals.Name}</h3>
                       <p>{vals.Email}</p>
