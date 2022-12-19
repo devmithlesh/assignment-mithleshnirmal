@@ -155,7 +155,7 @@
   background: var(--white);
   position: absolute;
   margin-top: -15px;
-  left: 22%;
+  left: 21.8%;
   width: 63%;
 }
 
@@ -305,6 +305,25 @@ input:checked + .slider {
   .pro_file_img_div h3 a {
     font-size: 15px;
   }
+  .border_div {
+    width: 83%;
+  }
+  .border_div2 {
+    width: 83%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* overview */
+  .card_div_details {
+    width: 278px;
+  }
+  .border_div2 {
+    width: 100%;
+  }
+  .border_div {
+    width: 85%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -315,11 +334,14 @@ input:checked + .slider {
     padding: 18px 0;
   }
   .pro_file_img_div h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
   }
   .pro_file_img_div div p {
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .pro_file_img_div div {
+    margin-left: 10px;
   }
   .pro_file_img_div img {
     width: 25%;
@@ -340,6 +362,34 @@ input:checked + .slider {
     margin-right: 0;
   }
   .border_div {
+    width: 100%;
+  }
+  .card_div_details {
+    width: 245px;
+  }
+
+  /* week slot */
+  .switch {
+    width: 34px;
+    height: 16px;
+  }
+  .slider:before {
+    width: 14px;
+    height: 14px;
+  }
+  table tr td .time_value {
+    padding: 4px 3px;
+  }
+  .table tr td {
+    font-size: 11px;
+  }
+  .strock_img img {
+    padding: 0 5px;
+  }
+  .weekly_slots_div {
+    height: 80vh;
+  }
+  .border_div2 {
     width: 100%;
   }
 }

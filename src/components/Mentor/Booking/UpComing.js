@@ -23,7 +23,7 @@ function UpComing() {
         <div className="card_div_main_Upcoming_in">
           {Upcodata.map(function (vals, index) {
             return (
-              <div className="profile_div_of_user_upcom">
+              <div className="profile_div_of_user_upcom" key={index}>
                 <img src={vals.img_pr} alt="user" />
                 <div className="profile_inside_upcom_div">
                   <h3>{vals.Name}</h3>

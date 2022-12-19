@@ -21,14 +21,14 @@ const Layout = () => {
               {/* map app users name */}
               {Profdata.map((val, ind) => {
                 return (
-                  <tr>
+                  <tr key={ind}>
                     <td className="img_or_name">
                       <img src={val.img} alt="user" />
                       {val.Name}
                     </td>
                     <td>{val.Career}</td>
                     <td>{val.Email}</td>
-                    <td>{val.Phone}</td>
+                    <td className="phone_number_home">{val.Phone}</td>
                     <td>
                       <Link to="/profile">{val.Action}</Link>
                     </td>

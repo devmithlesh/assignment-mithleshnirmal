@@ -32,6 +32,18 @@
   margin: 0 auto;
 }
 
+@media (min-width: 1366px) {
+  body,
+  header {
+    width: 1366px !important;
+    margin: 0 auto;
+  }
+  header {
+    left: 0;
+    right: 0;
+  }
+}
+
 button {
   border: none;
   outline: none;

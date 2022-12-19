@@ -10,7 +10,7 @@ function PastCall() {
           <div className="card_past_all_upcoming">
             {Upcodata.map(function (vals, index) {
               return (
-                <div className="profile_div_of_user_upcom2">
+                <div className="profile_div_of_user_upcom2" key={index}>
                   <div className="profile_inside_div_pss">
                     <img src={vals.img_pr} alt="user" />
                     <div className="innner_left_content">

@@ -156,6 +156,24 @@ th {
   }
 }
 
+@media (max-width: 768px) {
+  .main_section_div_part .left_navbar_div {
+    padding: 25px 0 0 19px;
+  }
+  /* Table */
+  .inner_div_right_side {
+    overflow-x: auto;
+  }
+  .inner_div_right_side table tr td a {
+    width: 86px;
+    display: flex;
+  }
+  .phone_number_home {
+    width: 110px;
+    display: flex;
+  }
+}
+
 @media (max-width: 480px) {
   .admin_plue_content {
     flex-direction: column;
@@ -171,10 +189,5 @@ th {
   .main_section_div_part .left_navbar_div,
   .left_navbar_div .navbar_ul_list li a {
     padding-left: 5px;
-  }
-
-  /* Table */
-  .inner_div_right_side {
-    overflow-x: auto;
   }
 }

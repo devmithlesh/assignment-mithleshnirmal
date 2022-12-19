@@ -16,11 +16,11 @@ function WeekSlots() {
             {/* Map All Data */}
             {WkSlot_data.map(function (val, index) {
               return (
-                <tr>
+                <tr key={index}>
                   <td>
-                    <label class="switch">
-                      <input type="checkbox" checked />
-                      <span class="slider round"></span>
+                    <label className="switch">
+                      <input type="checkbox" />
+                      <span className="slider round"></span>
                     </label>
                   </td>
                   <td>{val.Day}</td>
